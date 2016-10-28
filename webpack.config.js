@@ -1,7 +1,7 @@
 var path = require("path");
 
 var commonLoaders = [
-	{ test: /\.js$/, loader: "jsx-loader" },
+	{ test: /\.js$/, loader: "babel-loader" },
 	{ test: /\.png$/, loader: "url-loader" },
 	{ test: /\.jpg$/, loader: "file-loader" },
 ];
@@ -12,7 +12,7 @@ module.exports = [
 	{
 		// The configuration for the client
 		name: "browser",
-		entry: "./app/entry.js",
+		entry: "./client/src/index.js",
 		output: {
 			path: assetsPath,
 			filename: "[hash].js",
