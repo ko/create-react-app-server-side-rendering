@@ -12,6 +12,6 @@ app.get("/", function(req, res) {
 	res.end(page(req, stats.assetsByChunkName.main));
 });
 
-var server = app.listen(3000, function() {
+var server = app.listen(8000, function() {
 	console.log('Listening on port %d', server.address().port);
 });
