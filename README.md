@@ -1,3 +1,9 @@
+# create-react-app-server-side-rendering
+
+This exercise is based off react-webpack-server-side-example which can be found [here](https://github.com/webpack/react-webpack-server-side-example) and includes a React client generated from create-react-app which is found [here](https://github.com/facebookincubator/create-react-app).
+
+Base project's README is below.
+
 # react-webpack-server-side-example
 
 Example of an react application with webpack including server-side rendering.
